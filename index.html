@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Yaadav Bhauruth</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Kalam:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+/* Style the header */
+.header {
+    background-color: #e6eeff;
+    padding: 10px;*
+    text-align: center;
+    min-width: 500px;
+}
+
+.img-circle {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width:40%;
+}
+
+/* Container for flexboxes */
+.row {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+}
+
+.smallcolumn {
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0;
+    padding: 10px;
+    justify-content: center;
+}
+.largecolumn {
+    -webkit-flex: 2 0 0;
+    -ms-flex: 2 0 0;
+    flex: 2 0 0;
+    padding: 10px;
+    justify-content: left;
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Style the footer */
+.footer {
+    background-color: #e6eeff;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1 style="text-align:center;font-size:50px;color:#9900CC;font-family:'Kalam', cursive;">Yaadav Bhauruth</h1>
+</div>
+
+<div class="row">
+  <div class="smallcolumn" style="background-color:#ffe6f0;">
+    <img  class="img-circle" src="WebImages/Yaadav.jpg" alt="Yaadav Bhauruth">
+  </div>
+
+  <div class="largecolumn" style="background-color:#ffe6e6;">
+<p>I have recently submmited my <i>PhD</i> thesis. My doctoral researh was in the field of experimental particle physics. Specifically, I analysed data collected by the ATLAS experiment at the Large Hadron Collider.</p>
+
+<p>I obtained an <i>MPhys</i> degree in Physics in 2013 from the University of Manchester.</p>
+
+<p>You can find out more about me below.</p>
+</div>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#ecffb3;">
+<h2 style="font-family:'Kalam', cursive;">A little bit more about me...</h2>
+<p>I was born on the Indian Ocean island of Mauritius. While studying for my A Levels, I came to the conclusion that it would be foolish to put an end to my enjoyment of cracking difficult physics problems. I moved to the UK to puruse a degree in Physics at the University of Manchester. The eight years that I have spent in Manchester so far were thoroughly enjoyable; I learnt a lot and I met people from the world over - an experience that has profoundly changed my outlook on life.</p>
+
+</div>
+</div>
+
+<div class="footer">
+  <p>Email: yaadav.bhauruth[at]manchester.ac.uk</p>
+</div>
+
+</body>
+</html>
+
+
